@@ -56,7 +56,7 @@ def decrypt_image(encrypted_image_path, key):
 def main():
     print("Image Encryption and Decryption using Pixel Manipulation")
 
-    #image_path = 'C:\Users\HP\PRODIGY_INFOTECH\image1.png'. enter your image path as input
+    #image_path = 'C:\Users\hprus\PRODIGY_INFOTECH\image1.png'. enter your image path as input
     image_path = input("Enter the path to the image file: ")
     # Generate a random key (you can use any integer as the key)
     key = np.random.randint(0, 256, size=(3,), dtype=np.uint8)
